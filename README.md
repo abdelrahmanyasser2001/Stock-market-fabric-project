@@ -45,7 +45,7 @@ The project utilizes the following Microsoft Fabric components:
 
     It perform lightweight transformations before routing the data to downstream systems.
 
-![Alt text](imgs/EventstreamDiagran.png)
+![Alt text](imgs/EventstreamDiagram.png)
 
 
 ### Storage Layer
