@@ -12,6 +12,9 @@ The goal of this project is to:
 * **Trigger alerts:** Notify users of significant price movements.
 * **Store historical data:** Archive all raw stock data for long-term analysis.
 
+![Alt text](imgs/ProjectDiagram.png)
+
+
 ## Architecture
 
 The project utilizes the following Microsoft Fabric components:

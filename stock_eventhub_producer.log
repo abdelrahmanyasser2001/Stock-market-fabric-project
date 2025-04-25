@@ -1,0 +1,68 @@
+2025-04-26 01:30:45 azure.identity._credentials.environment INFO     No environment configuration found.
+2025-04-26 01:30:46 azure.identity._credentials.managed_identity INFO     ManagedIdentityCredential will use IMDS
+2025-04-26 01:30:46 stock_eventhub_producer INFO     Starting stock data producer for Azure Event Hub...
+2025-04-26 01:30:46 azure.eventhub._pyamqp._connection INFO     Connection state changed: None -> <ConnectionState.START: 0>
+2025-04-26 01:30:47 azure.eventhub._pyamqp._connection INFO     Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+2025-04-26 01:30:47 azure.eventhub._pyamqp._connection INFO     Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+2025-04-26 01:30:47 azure.eventhub._pyamqp._connection INFO     Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.session INFO     Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.management_link INFO     Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.management_link INFO     Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+2025-04-26 01:30:47 azure.eventhub._pyamqp._connection INFO     Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+2025-04-26 01:30:47 azure.eventhub._pyamqp._connection INFO     Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.session INFO     Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.management_link INFO     Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+2025-04-26 01:30:47 azure.eventhub._pyamqp.management_link INFO     Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+2025-04-26 01:30:47 azure.core.pipeline.policies.http_logging_policy INFO     Request URL: 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=REDACTED&resource=REDACTED'
+Request method: 'GET'
+Request headers:
+    'User-Agent': 'azsdk-python-identity/1.21.0 Python/3.11.9 (Windows-10-10.0.26100-SP0)'
+No body was attached to the request
+2025-04-26 01:30:49 azure.identity._credentials.chained INFO     DefaultAzureCredential acquired a token from AzureCliCredential
+2025-04-26 01:30:49 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+2025-04-26 01:30:49 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+2025-04-26 01:30:49 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "CRBP", "price": 250.17, "volume": 4731, "timestamp": "2025-04-25T22:30:46.026931+00:00", "price_change_percentage": -0.88, "event_id": "eb3f91affce38bfa732a4f60d432837667e437a3e6e6f84d3faa56c8002163da"}
+2025-04-26 01:30:50 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TTTN", "price": 437.12, "volume": 5121, "timestamp": "2025-04-25T22:30:50.066073+00:00", "price_change_percentage": -0.32, "event_id": "896eadd60133853c9b760023c7287c5c299a9cc1af02468536aa2d06bf178dad"}
+2025-04-26 01:30:50 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "BRQS", "price": 260.38, "volume": 2480, "timestamp": "2025-04-25T22:30:50.422889+00:00", "price_change_percentage": 0.27, "event_id": "ae25b04fcf706c1d083ed07a7144278059638484a5a2b83b662a36cc089e9403"}
+2025-04-26 01:30:50 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "AP", "price": 434.68, "volume": 2930, "timestamp": "2025-04-25T22:30:50.772123+00:00", "price_change_percentage": 0.5, "event_id": "09dee48c6de7c2a0c331b5794f8afbef292881f1241a70936112eb0d641533bd"}
+2025-04-26 01:30:51 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TIGO", "price": 161.56, "volume": 6208, "timestamp": "2025-04-25T22:30:51.121192+00:00", "price_change_percentage": -0.83, "event_id": "bfe09e7b29782cb26add596ce5d85135f0f074a90f5e57e7c7db8c452d4bbbb5"}
+2025-04-26 01:30:51 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "CRBP", "price": 248.77, "volume": 4120, "timestamp": "2025-04-25T22:30:51.472690+00:00", "price_change_percentage": -0.56, "event_id": "0540337d7f7624554bcf1f3a24b45959b2bc8a3fdcb9c66aa0a404ff80644954"}
+2025-04-26 01:30:51 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "ADMS", "price": 190.84, "volume": 6402, "timestamp": "2025-04-25T22:30:51.822605+00:00", "price_change_percentage": 0.52, "event_id": "675d4524560c03640b970bcf87c54a3c8d3690a065573f1d5800c68bb2d03c9e"}
+2025-04-26 01:30:52 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "VGSH", "price": 440.07, "volume": 171, "timestamp": "2025-04-25T22:30:52.174682+00:00", "price_change_percentage": 0.67, "event_id": "532b763880cc84da62fb2e69b35a070139ee6e7ee447a545ec451ab3153869c6"}
+2025-04-26 01:30:52 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "CRBP", "price": 249.57, "volume": 2335, "timestamp": "2025-04-25T22:30:52.527300+00:00", "price_change_percentage": 0.32, "event_id": "ddd633e172196618de737f3fb38f34aef4d5697bacc692fe5d0bb190a7bdef28"}
+2025-04-26 01:30:53 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TIGO", "price": 161.8, "volume": 5200, "timestamp": "2025-04-25T22:30:52.878237+00:00", "price_change_percentage": 0.15, "event_id": "c91b51c13e582a052da7d132c41a00b50ad1dfdfd658cae04baef6f0bcea7c16"}
+2025-04-26 01:30:53 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "BY", "price": 281.12, "volume": 1622, "timestamp": "2025-04-25T22:30:53.232924+00:00", "price_change_percentage": -0.67, "event_id": "e9c558f2e6cb701f3cb623f40740e235e64a50bb22062bc857e950b7ea0bd060"}
+2025-04-26 01:30:53 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "BRQS", "price": 262.61, "volume": 5681, "timestamp": "2025-04-25T22:30:53.581340+00:00", "price_change_percentage": 0.86, "event_id": "ca76e78279b1434537e51b59597e3569881b8b3908af1d35e9134fcdef51a981"}
+2025-04-26 01:30:54 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "CRBP", "price": 249.54, "volume": 5516, "timestamp": "2025-04-25T22:30:53.929177+00:00", "price_change_percentage": -0.01, "event_id": "c1444097cc9344b441d85ef0034f4ac64df27e7c755584ed418dcf4ba85765c8"}
+2025-04-26 01:30:54 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TIGO", "price": 162.17, "volume": 5375, "timestamp": "2025-04-25T22:30:54.283125+00:00", "price_change_percentage": 0.23, "event_id": "efeab2dc2d05abc8483cb063acf3dbc3b9bc86a9956cd8284f9d80d34cc26a82"}
+2025-04-26 01:30:54 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "BY", "price": 278.33, "volume": 8123, "timestamp": "2025-04-25T22:30:54.648180+00:00", "price_change_percentage": -0.99, "event_id": "f1407b33317cd3853429a29217b8140750e457f9d3b1775b546780e83d82e536"}
+2025-04-26 01:30:55 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "EGOV", "price": 284.27, "volume": 4587, "timestamp": "2025-04-25T22:30:55.013726+00:00", "price_change_percentage": -0.93, "event_id": "f30fc1d9f34d0fd0447cca5ba5fcc4b9413fbd1de34e80aa1ae5cc5e5f8ee00f"}
+2025-04-26 01:30:55 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "AP", "price": 431.47, "volume": 8050, "timestamp": "2025-04-25T22:30:55.364809+00:00", "price_change_percentage": -0.74, "event_id": "b6aea60c46583be0191116c23a278d191cc6523039ad3f69a77f995f57567922"}
+2025-04-26 01:30:55 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "AP", "price": 435.28, "volume": 2920, "timestamp": "2025-04-25T22:30:55.718858+00:00", "price_change_percentage": 0.88, "event_id": "dd70c40bfa8a905da36ce19ea35f59f58d038a8fce8f75b5f8fc51a2e4b4ca5c"}
+2025-04-26 01:30:56 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "ADMS", "price": 191.56, "volume": 4046, "timestamp": "2025-04-25T22:30:56.067779+00:00", "price_change_percentage": 0.38, "event_id": "00b3bf840f22629870fcf9632f6ed29f9ecac81ec4f727630b3c58ec121096b7"}
+2025-04-26 01:30:56 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "VGSH", "price": 439.92, "volume": 376, "timestamp": "2025-04-25T22:30:56.417080+00:00", "price_change_percentage": -0.03, "event_id": "0d42d7b61212204a8514a4be5a1cbbdc7a49f27dbb0e371c709d59e5cb91c89b"}
+2025-04-26 01:30:56 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "ADMS", "price": 191.9, "volume": 4657, "timestamp": "2025-04-25T22:30:56.769470+00:00", "price_change_percentage": 0.18, "event_id": "46ddeea36f80d09fefecd539b5224e8ee8bf28e224a24a47917406a49d11397d"}
+2025-04-26 01:30:57 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TIGO", "price": 163.41, "volume": 4782, "timestamp": "2025-04-25T22:30:57.142569+00:00", "price_change_percentage": 0.76, "event_id": "093c50b30c02e419c9783ddf9314ff9fc9d36e66a6ee42f04e3d3bd684ac74e3"}
+2025-04-26 01:30:57 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TTTN", "price": 434.44, "volume": 2195, "timestamp": "2025-04-25T22:30:57.493269+00:00", "price_change_percentage": -0.61, "event_id": "e71723a8f8adcf829d533fe14725c8d737be8fafc35096cc68c99026101a2c64"}
+2025-04-26 01:30:58 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TTTN", "price": 431.07, "volume": 991, "timestamp": "2025-04-25T22:30:57.847516+00:00", "price_change_percentage": -0.78, "event_id": "d9f69c717b8896c2248599c72b4a4a92dfc2dc21c897c2cecb0bc60335a38635"}
+2025-04-26 01:30:58 stock_eventhub_producer INFO     Sent stock event to Azure Event Hub: {"stock_symbol": "TTTN", "price": 430.18, "volume": 5987, "timestamp": "2025-04-25T22:30:58.202369+00:00", "price_change_percentage": -0.21, "event_id": "1ed7edcb3c409e6e52c9664007abf135028371cb03db596b7df6dfb9cf7118d9"}
+2025-04-26 01:30:58 stock_eventhub_producer INFO     Stock data producer stopped by user.
+2025-04-26 01:30:58 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.management_link INFO     Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.management_link INFO     Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.session INFO     Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+2025-04-26 01:30:58 azure.eventhub._pyamqp._connection INFO     Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+2025-04-26 01:30:58 azure.eventhub._pyamqp._connection INFO     Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.session INFO     Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.management_link INFO     Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.management_link INFO     Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+2025-04-26 01:30:58 azure.eventhub._pyamqp.link INFO     Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+2025-04-26 01:30:58 stock_eventhub_producer INFO     Azure Event Hub producer closed.
