@@ -45,6 +45,9 @@ The project utilizes the following Microsoft Fabric components:
 
     It perform lightweight transformations before routing the data to downstream systems.
 
+![Alt text](imgs/EventstreanDiagran.png)
+
+
 ### Storage Layer
 
 * **KQL Database:**
@@ -65,7 +68,12 @@ The project utilizes the following Microsoft Fabric components:
     * Anomaly detections
     * Aggregated metrics (e.g., average price, highest volume)
 
+![Alt text](imgs/Dashboard.png)
+
+
 * **Data Activator (Microsoft Fabric Reflex):**
     Data Activator continuously monitors the KQL database for anomaly conditions (e.g., sudden price spikes/drops).
 
     Upon detecting an anomaly, it triggers an alert (such as an email).
+
+![Alt text](imgs/EmailSample.png)
